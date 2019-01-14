@@ -1,0 +1,22 @@
+# City name
+city: Melbourne
+# City centerpoint latitude & longitude
+city_latitude: None
+city_longitude: None
+# City's time zone [defaults to local to,e of computer]
+timezone: Australia/Sydney
+# The folder under data where this city's data is stored
+name: Melbourne
+# Limit crashes to between start and end date
+startdate:
+enddate:
+#################################################################
+crash_files:
+  C:\Users\Daniel\Documents\ML\Transurban V2\data\Melbourne\raw\crash\crash.csv
+  C:\Users\Daniel\Documents\ML\Transurban V2\data\Melbourne\raw\crash\map.csv
+  C:\Users\Daniel\Documents\ML\Transurban V2\data\Melbourne\raw\crash\map_inters.csv
+  C:\Users\Daniel\Documents\ML\Transurban V2\data\Melbourne\raw\crash\atmosphere.csv
+cat_feat: ['DAY_OF_WEEK', 'MONTH', 'HOUR', 'oneway', 'dead_end', 'intersection', 'signal', 'direction', 'lanes', 'hwy_type', 'streets', 'intersection_segments', 'crosswalk']
+cont_feat: ['osm_speed', 'width_per_lane', 'width', 'LAST_7_DAYS', 'LAST_30_DAYS', 'LAST_365_DAYS', 'LAST_1825_DAYS', 'LAST_3650_DAYS']
+keep_feat: ['HOUR', 'DAY_OF_WEEK', 'MONTH', 'DEGREE_URBAN', 'LIGHT_COND', 'ATMOSPH_COND', 'NODE_TYPE_INT', 'COMPLEX_INT', 'hwy_type', 'inter', 'intersection_segments', 'lanes', 'oneway', 'signal', 'streets', 'direction', 'SPEED_ZONE', 'osm_speed', 'LAST_7_DAYS', 'LAST_30_DAYS', 'LAST_365_DAYS', 'LAST_1825_DAYS', 'LAST_3650_DAYS', 'display_name', 'intersection', 'segment_id']
+merged_data: C:\Users\Daniel\Documents\ML\Transurban V2\data\Melbourne\processed\canon.csv.gz

@@ -1,0 +1,28 @@
+We begin by standardizing our crash data to be easily managed.
+
+Our end goal is the following:
+    "What is the probability that Road A has a crash on it within the next hour?"
+
+To do this we will be using input data that looks like:
+    Crashes on Road A in last 10  years
+    Crashes on Road A in last 5 years
+    Crashes on Road A in last year
+    Crashes on Road A in last month
+    Crashes on Road A in week prior
+    Crashes on Road A yesterday
+    Road A Geometry
+    Road A Speeds
+    Road A Suburb
+    Road A Node Type
+    Road A Hour
+
+Which means we have to train the model on data the looks like:
+    Historical crashes [as segmented above]
+    Road geometry
+    Road speeds
+    Road suburb
+    Road note type
+    Road hour
+    Whether or not there was a crash on the road during that hour.
+
+We would then have to weight our model extremely heavily towards predicting crashes.

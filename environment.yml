@@ -1,0 +1,33 @@
+name: crash-model
+channels:
+- conda-forge
+- defaults
+dependencies:
+- codecov
+# Conda packacking issue, will want to revisit later
+- fiona=1.7.13
+- folium
+- geopandas
+- geocoder
+- geojson
+- ipdb
+- ipython
+- jupyter
+- matplotlib
+- numpy
+- openpyxl
+- osmnx
+- pandas
+- pylint
+- pyproj
+- pytest
+- python=3.6
+- pyyaml
+- pytest-cov
+- rtree
+- seaborn
+- scikit-learn
+- shapely
+- tzlocal
+#- xgboost
+- xlrd
