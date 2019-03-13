@@ -1,6 +1,6 @@
 # Melbourne Crash Predictions
 
-A demonstration of this application can be seen at: 
+A demonstration of this application can be seen at: http://melbournecrashdemo.s3-website-ap-southeast-2.amazonaws.com/
 
 This machine learning application is piggy-backed from the excellent work done by Data4Democracy carrying out similar work in Boston. 
 For more information on the Data4Democracy project, see the D4D_README file included in this repository.
