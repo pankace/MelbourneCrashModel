@@ -1,11 +1,12 @@
 #!/usr/bin/python
 
-import requests
 import argparse
 import datetime
 import json
 import gzip
 import os
+import requests
+
 
 
 if __name__ == '__main__':

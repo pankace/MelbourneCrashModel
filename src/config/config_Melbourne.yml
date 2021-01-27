@@ -1,17 +1,18 @@
 # City name
-city: Melbourne
+city: Bangkok
 # City centerpoint latitude & longitude
 city_latitude: None
 city_longitude: None
 # City's time zone [defaults to local to,e of computer]
 timezone: Australia/Sydney
 # The folder under data where this city's data is stored
-name: Melbourne
+name: Bangkok
 # Limit crashes to between start and end date
 startdate:
 enddate:
 #################################################################
 crash_files:
+  /Users/lobster/Desktop/untitled folder/ข้อมูลอุบัตที่เกิดจากรถโดยสาร53-62
   C:\Users\Daniel\Documents\ML\Transurban V2\data\Melbourne\raw\crash\crash.csv
   C:\Users\Daniel\Documents\ML\Transurban V2\data\Melbourne\raw\crash\map.csv
   C:\Users\Daniel\Documents\ML\Transurban V2\data\Melbourne\raw\crash\map_inters.csv
